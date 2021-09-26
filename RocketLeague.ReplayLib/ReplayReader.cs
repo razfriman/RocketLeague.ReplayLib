@@ -1,9 +1,11 @@
 using System;
 using System.Diagnostics;
 using System.IO;
+using System.Text.Json;
 using RocketLeague.ReplayLib.IO;
 using RocketLeague.ReplayLib.Models;
 using Microsoft.Extensions.Logging;
+using RocketLeague.ReplayLib.Properties;
 
 namespace RocketLeague.ReplayLib
 {
@@ -243,8 +245,8 @@ namespace RocketLeague.ReplayLib
             }
 
             Replay.ReplayClass = reader.ReadFString();
-            Replay.PropertyContainer = FProperty.DeserializePropertyContainer(reader);
-            var json = Replay.PropertyContainer.ToJson();
+            Replay.PropertyContainer = FPropertyParser.DeserializePropertyContainer(reader);
+            var json = JsonSerializer.Serialize(Replay.PropertyContainer);
             Console.WriteLine(json);
             OnReadReplayHeaderData();
         }

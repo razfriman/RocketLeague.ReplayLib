@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using RocketLeague.ReplayLib.Properties;
 
 namespace RocketLeague.ReplayLib.Models
 {

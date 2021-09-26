@@ -5,6 +5,7 @@ public struct LocationAndRotation
     
 }
 
+[ReplayClass("TAGame")]
 public class TAGame 
 {
     public LocationAndRotation Ball_Breakout_TA { get; set; }
@@ -14,6 +15,7 @@ public class TAGame
     public LocationAndRotation Car_TA { get; set; }
 }
 
+[ReplayClass("Archetypes_Ball")]
 public class Archetypes_Ball
 {
     public LocationAndRotation Ball_Breakout { get; set; }
@@ -30,6 +32,13 @@ public class Archetypes_Ball
     public LocationAndRotation Ball_Training { get; set; }
     public LocationAndRotation Ball_Football { get; set; }
 }
+
+
+
+    
+"TAGame.Ball_Breakout_TA:AppliedDamage" => AttributeTag::AppliedDamage,
+"TAGame.Ball_Breakout_TA:DamageIndex" => AttributeTag::Int,
+"TAGame.Ball_Breakout_TA:LastTeamTouch" => AttributeTag::Byte,
 
 /*
   "TAGame.Ball_Breakout_TA" => SpawnTrajectory::LocationAndRotation,
