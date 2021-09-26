@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLeague.ReplayLib", "RocketLeague.ReplayLib\RocketLeague.ReplayLib.csproj", "{6C12E159-8D97-49D6-B4B7-0028AE480D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLeague.ReplayLib.Test", "RocketLeague.ReplayLib.Test\RocketLeague.ReplayLib.Test.csproj", "{A6C60AF3-2530-44A7-A01F-4E6CA1B94A6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLeague.ReplayLib.Benchmark", "RocketLeague.ReplayLib.Benchmark\RocketLeague.ReplayLib.Benchmark.csproj", "{92681F45-F58B-4B38-81BC-2841D1445969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RocketLeague.ReplayLib.Console", "RocketLeague.ReplayLib.Console\RocketLeague.ReplayLib.Console.csproj", "{C1175B45-49F5-411B-AF2F-864CBB0EC19D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C12E159-8D97-49D6-B4B7-0028AE480D9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C12E159-8D97-49D6-B4B7-0028AE480D9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C12E159-8D97-49D6-B4B7-0028AE480D9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C12E159-8D97-49D6-B4B7-0028AE480D9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C60AF3-2530-44A7-A01F-4E6CA1B94A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C60AF3-2530-44A7-A01F-4E6CA1B94A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C60AF3-2530-44A7-A01F-4E6CA1B94A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C60AF3-2530-44A7-A01F-4E6CA1B94A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92681F45-F58B-4B38-81BC-2841D1445969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92681F45-F58B-4B38-81BC-2841D1445969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92681F45-F58B-4B38-81BC-2841D1445969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92681F45-F58B-4B38-81BC-2841D1445969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1175B45-49F5-411B-AF2F-864CBB0EC19D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1175B45-49F5-411B-AF2F-864CBB0EC19D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1175B45-49F5-411B-AF2F-864CBB0EC19D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1175B45-49F5-411B-AF2F-864CBB0EC19D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
